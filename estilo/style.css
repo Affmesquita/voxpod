@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: droid;
+    src: url(../fonte/droid.otf);
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#heade {
+    width: 100vw;
+    height: 600px;
+
+    background-image: url(../image/background-heade-1.jpg);
+    background-size: cover;
+}
+#nav_head {
+    width: 100vw;
+    height: 90px;
+
+    text-align: center;
+    padding: 10px 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-logo {
+    width: 50px;
+    height: 58px;
+}
+#nav-list {
+    display: flex;
+    margin: auto;
+
+    font-size: 30px;
+    font-family: droid;
+
+    color: white;
+}
+.nav-list-item {
+    color: white;
+    margin: 10px 30px;
+
+}
+.nav-list-item:hover {
+    color: red;
+    transition: 1s;
+
+}
+
+#nav-list-social {
+    display: flex;
+    justify-content: center;
+}
+.nav-list-icon img {
+    width: 40px;
+    padding: 5px;
+}
