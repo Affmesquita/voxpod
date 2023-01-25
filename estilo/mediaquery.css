@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1067px) {
+    
+    #btn-nav {
+        display: block;
+    }
+
+    #nav-list {
+        display: none;
+    }
+    #nav-list-social {
+        display: none;
+    }
+
+    #nav-list.active {
+        display: flex;
+    }
+}

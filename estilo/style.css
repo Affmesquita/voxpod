@@ -30,6 +30,9 @@ body {
     border-bottom: 4px solid #bf500f91;
 }
 
+#btn-nav {
+    display: none;
+}
 
 #nav_head {
     width: 100vw;
