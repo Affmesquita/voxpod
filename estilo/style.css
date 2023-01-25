@@ -20,7 +20,7 @@ body {
 }
 
 
-#heade {
+#header {
     width: 100vw;
     height: 600px;
 
@@ -57,7 +57,7 @@ body {
 
 }
 .nav-list-item:hover {
-    color: red;
+    color: #BF500F;
     transition: 1s;
 
 }
@@ -69,4 +69,32 @@ body {
 .nav-list-icon img {
     width: 40px;
     padding: 5px;
+}
+
+
+#baner {
+    width: 100vw;
+    height: 550px;
+
+    padding: 50px;
+
+    text-align: center;
+}
+
+#baner-voxpod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #BF681B;
+    
+    font-weight: lighter;
+    font-size: 250px;
+    font-family: droid;
+    text-shadow: 4px 4px 2px black;
+
+    
+}
+#baner-streming {
+    width: 300px;
 }
