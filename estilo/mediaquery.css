@@ -87,6 +87,6 @@
     }
     #nav_head.active #hamburguer::before{
         transform: rotate(-135deg);
-        top: -20;
+        top: 5.5px;
     }
 }
