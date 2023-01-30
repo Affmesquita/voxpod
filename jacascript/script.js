@@ -7,5 +7,5 @@ function toggleMenu() {
 
 
 
-btnMenu.addEventListener(click, toggleMenu());
+btnMenu.addEventListener('click', toggleMenu);
 

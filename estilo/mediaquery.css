@@ -10,18 +10,83 @@
 
 @media (max-width: 1067px) {
     
-    #btn-nav {
+   
+    #nav-list {
         display: block;
+        
+        width: 100%;
+        height: 0px;
+
+        position: absolute;
+        
+        top: 90px;
+        right: 0px;
+        background-color: #000000b6;
+
+        z-index: 1000;
+
+        transition: 0.6s;
+        visibility: hidden;
+        overflow-y: hidden;
+        
     }
 
-    #nav-list {
-        display: none;
-    }
     #nav-list-social {
         display: none;
     }
 
-    #nav-list.active {
+    #nav_head.active #nav-list{
+        height: 85vh;
+
         display: flex;
+        flex-direction: column;
+
+        padding-top: 15px;
+        visibility: visible;
+
+    }
+    #nav_head.active #nav-list li{
+        margin-bottom: 53px;
+    }
+
+    #btn-nav {
+        display: flex;
+        padding: .5rem 1rem;
+
+        font-size: 1rem;
+
+        border: none;
+
+        background: none;
+
+        cursor: pointer;
+        
+    }
+
+    #hamburguer {
+        width: 50px;
+        border-top: 2px solid white;
+    }
+    #hamburguer::after, #hamburguer::before{
+        content: '';
+        display: block;
+        width: 50px;
+        height: 2px;
+        background-color: white;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav_head.active #hamburguer {
+        border-top: transparent;
+    }
+
+    #nav_head.active #hamburguer::after{
+        transform: rotate(135deg);
+    }
+    #nav_head.active #hamburguer::before{
+        transform: rotate(-135deg);
+        top: -20;
     }
 }
