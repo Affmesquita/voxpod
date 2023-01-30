@@ -109,8 +109,6 @@ body {
 
 
 
-
-
 /* MAIN */ 
 
 
@@ -159,7 +157,7 @@ main {
     flex-direction: column;
 }
 .ep-card {
-    width: 660px;
+    width: 650px;
     height: 570px;
 
     color: white;
